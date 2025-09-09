@@ -1,4 +1,4 @@
-consr mensagens = [
+const mensagens = [
 "vocẽ e mais forte do que imagina 💛"
 "nunca se esqueça: sua vida importa 🌻"
 "vocẽ não ésta sozinho, estamos juntos 🤝🏿"
@@ -7,6 +7,6 @@ consr mensagens = [
 ];
 
 document.getElementById("btnMensagem").addEventListener("click", () =>{
-  const aleatorio = mensagens[Math.floor(math.random() *  mensagens.length)];
-  document.getElementById("mensagem").innertext = aletoria;
+  const aleatoria = mensagens[Math.floor(Math.random() *  mensagens.length)];
+  document.getElementById("mensagem").innerText = aleatoria;
 });
